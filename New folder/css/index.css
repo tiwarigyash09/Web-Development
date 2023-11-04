@@ -1,0 +1,42 @@
+body {background-color: rgb(25, 27, 29);}
+/* #icon {background-image:url(https://gbcdn.mrgcdn.ru/uploads/geekbrains/public/ckeditor_assets/pictures/8975/retina-5df8bc110901350173f8be719ce2ea1d.png); height: 700px; width: 800px; background-repeat: no-repeat; background-size: auto;} */
+#icon {height: 750px;width: 850px; background: no-repeat center/80% url('https://gbcdn.mrgcdn.ru/uploads/geekbrains/public/ckeditor_assets/pictures/8975/retina-5df8bc110901350173f8be719ce2ea1d.png') }
+*{color: rgb(250, 211, 153); margin: 0; padding: 0; border: hotpink ;font-family: 'dancing script';}
+/* level 2 & 3 */
+#first {text-align: center; color: rgba(181, 252, 252, 1.5); font-size: 25px; font-weight: 100; font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;}
+#second { color: rgb(200, 146, 250); font-size: 30px; font-weight: 200; font-style: oblique; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#third { color: rgb(139, 241, 139); font-size: 40px; font-weight: 300; font-style: inherit; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#fourth { color: rgb(87, 253, 253); font-size: 50px; font-weight: 400; font-style: unset; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.first { color: rgb(252, 87, 191);}
+h1,h2,h3,h4,h5,h6{color: rgb(2, 50, 95); font-family: 'dancing script';}
+p{color: rgb(87, 3, 3); font-family: 'dancing script';}
+.box {height: 100px; width: 100px;}
+#box {background-color: rgb(84, 86, 207); height: 100px; width: 100px; text-align: center; text-decoration:underline ;}
+#text {background-color: azure; text-decoration: underline; text-decoration-style: dotted ; text-decoration-color: blueviolet;}
+#link {text-decoration: none;}
+#box1 {text-transform: uppercase;}
+#box2 {text-transform: capitalize;}
+#box3 {text-transform: unset;}
+#p1 {line-height: 8px; font-family: 'dancing script';}
+#p2 {line-height: 25px; font-family: 'dancing script';}
+/* Level 4 */
+#padding{ color: black; background-color: rgb(174, 247, 247); height: 20px;width: 70px; margin: 5px 5px 5px; border: 5px solid rgb(93, 151, 238);border-radius: 10px;}
+/* Level 5 */
+.box1 {height: 50%;width: 30%; background-color: blueviolet;}
+.box2 {height: 50%;width: 20%; background-color: brown;}
+.box3 {height: 50%;width: 50%; background-color: teal;}
+.box5 {color: rgb(25, 27, 29);background-color: blanchedalmond; height: 100px;width: 100px; margin: 5px; display: block;}
+.box6{color: rgb(25, 27, 29);background-color: rgb(205, 217, 255); height: 50%;width: 30%; margin: 5px; display: inline;}
+.box7{color: rgb(25, 27, 29);background-color: rgb(205, 217, 255); height: 50%;width: 30%; margin: 5px; display: none;}
+#div1 {color:  rgb(25, 27, 29); background-color: rgb(122, 233, 233);width: 50px; height: 50px;position: static;z-index: 1;}
+#div2{color:  rgb(25, 27, 29); background-color: rgb(250, 197, 82);width: 50px; height: 50px;position: relative;top: 10px;left: 10px; z-index: 4;}
+#div3{color:  rgb(25, 27, 29); background-color: rgb(255, 88, 88);width: 50px; height: 50px;position: absolute;top: 20px;left: 50px;z-index: 3;}
+#div4{color:  rgb(25, 27, 29); background-color: rgb(93, 252, 120);width: 50px; height: 50px;position: fixed;z-index: 7;}
+/* Level 6 */
+#container {height: 200px; width: 500px; background-color: rgb(245, 152, 182); border: 3px solid rgb(240, 255, 153); display: flex; flex-direction:row-reverse; margin: 5px;}
+#book1 {height: 50px; width: 250px; background-color: rgb(205, 50, 50); margin: 5px; float: right;}
+#book2 {height: 50px; width: 250px; background-color: rgb(205, 50, 102); margin: 5px;float: left;}
+#book3 {height: 50px; width: 250px; background-color: rgb(205, 50, 50); margin: 5px; float: right;}
+#book4 {height: 50px; width: 250px; background-color: rgb(205, 50, 102); margin: 5px;float: left;}
+.book {height: 150px; width: 200px; background-color: yellowgreen; margin: 5px; float: right; border: 3px solid black}
+ 
